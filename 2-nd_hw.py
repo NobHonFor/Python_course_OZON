@@ -14,7 +14,7 @@ while player_deposit != int(0):
             player_choice = int(input('Введите число: '))
             break
         except ValueError:
-            print('Для продолжения игры необходимо ввести число от 1 до 12')
+            print('Для продолжения игры необходимо ввести число от 2 до 12')
             continue
     if player_choice != random_number:
         player_deposit -= 1000
