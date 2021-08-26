@@ -34,4 +34,4 @@ while player_deposit != int(0):
 print('Отличная игра!')
 print('Ваш результат:')
 for i in range(len(list_1)):
-    print('Выпало число:', list_1[i], 'Игрок выбрал', list_2[i], 'Остаток на счете', list_3[i])
+    print('Выпало число:', list_1[i], 'Игрок выбрал:', list_2[i], 'Остаток на счете:', list_3[i])
