@@ -31,7 +31,6 @@ while player_deposit != int(0):
         list_1.append(random_number)
         list_2.append(player_choice)
         list_3.append(player_deposit)
-print('Отличная игра!')
-print('Ваш результат:')
+print('Отличная игра!\nВаш результат:')
 for i in range(len(list_1)):
     print('Выпало число:', list_1[i], 'Игрок выбрал:', list_2[i], 'Остаток на счете:', list_3[i])
