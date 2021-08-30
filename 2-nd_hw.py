@@ -1,13 +1,13 @@
 import random
 
-player_deposit = int(10000)
-player_choice = int(0)
+player_deposit = 10000
+player_choice = 0
 list_1 = []
 list_2 = []
 list_3 = []
 
 print('Viva Las Vegas! Ваш депозит составляет', player_deposit, '. Приятной игры!')
-while player_deposit != int(0):
+while player_deposit != 0:
     random_number = random.randint(2, 12)
     while True:
         try:
