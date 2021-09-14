@@ -12,4 +12,4 @@ def shows_avg_rating(c, d):
         for key in c:
             if d[i] == key:
                 e.append(c[key])
-    return float(sum(e)) / max(len(e), 0)
+    return round(float(sum(e)) / len(e), 3)
