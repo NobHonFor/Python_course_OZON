@@ -8,7 +8,7 @@ ratings = {'Секретные материалы': 0.9, 'Ведьмак': 0.95,
 
 
 print('средний рейтинг для жанров “драма”:',
-      round(module_5_th_hw_part_2.shows_avg_rating(ratings, module_5_th_hw_part_2.show_by_gener(shows, 'драма')), 3))
+      module_5_th_hw_part_2.shows_avg_rating(ratings, module_5_th_hw_part_2.show_by_gener(shows, 'драма')))
 
 print('средний рейтинг для жанров “криминал”:',
-      round(module_5_th_hw_part_2.shows_avg_rating(ratings, module_5_th_hw_part_2.show_by_gener(shows, 'криминал')), 3))
+      module_5_th_hw_part_2.shows_avg_rating(ratings, module_5_th_hw_part_2.show_by_gener(shows, 'криминал')))
