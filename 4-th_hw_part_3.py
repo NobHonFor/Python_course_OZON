@@ -17,7 +17,7 @@ for i in range(len(new_shows)):
 
 
 def avg(self):
-    return float(sum(self)) / max(len(self), 2)
+    return round(float(sum(self)) / len(self), 2)
 
 
 print('Средний рейтин сериаллов в жанре фантастика: ', avg(ratings_val))
