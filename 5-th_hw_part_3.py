@@ -1,4 +1,4 @@
-with open('test.txt', encoding='utf8') as file:
+with open('hw_5.3.txt', encoding='utf8') as file:
     a = 0
     cnt_var = []
     for line in file.readlines():
