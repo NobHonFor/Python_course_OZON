@@ -7,5 +7,7 @@ while True:
     if desc == 'нет':
         break
 with open('hw_5.4.txt', 'r', encoding='utf-8') as file:
+    print('Личный журнал:')
     for line in file:
         print(line)
+file.close()
